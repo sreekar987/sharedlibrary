@@ -1,6 +1,6 @@
 def checkout(Map config = [:])
 {
- git (url: "${config:giturl}",
+ git (url: "${config:Giturl}",
  branch: "${config:Gitbranch}" ,
  credentialsId: "Git_hub_credentails" )
 }
