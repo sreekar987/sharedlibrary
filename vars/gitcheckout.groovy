@@ -1,4 +1,4 @@
-def checkout(Map config = [:])
+def call(Map config = [:])
 {
  git (url: "${config:Giturl}",
  branch: "${config:Gitbranch}" ,
